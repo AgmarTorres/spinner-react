@@ -1,0 +1,17 @@
+.title{
+ 
+    text-align: center;
+    margin: 1vh;
+    border-radius: 5px;
+    padding: 2vh;
+
+    &.blue{
+        background-color: #3b5998 ;
+    }
+
+    &.green{
+
+        background-color: #008000;
+    }
+
+}
