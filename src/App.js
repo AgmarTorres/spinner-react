@@ -6,14 +6,12 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <Users></Users>
-      <Posts></Posts>
-
+      <Users dataSource='https://jsonplaceholder.typicode.com/users'/>
+      <Posts dataSource='https://jsonplaceholder.typicode.com/posts'/>
     </div>
   );
 }
 
 export default App;
-
 
 //https://jsonplaceholder.typicode.com/posts
